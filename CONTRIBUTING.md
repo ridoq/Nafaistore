@@ -79,4 +79,4 @@ git push -u origin feat/nama-fitur-namamu
 2. ❌ **JANGAN PERNAH** commit file `.env`, folder `node_modules/`, `vendor/`, atau file dump database manual `.sql`!
 3. ❌ **JANGAN** mengubah file milik anggota lain tanpa koordinasi terlebih dahulu.
 4. ✅ **WAJIB** `git pull origin develop` sebelum bikin branch baru.
-5. ✅ Untuk Backend: Buat perubahan database melalui **Laravel Migration & Seeder**, bukan export manual di phpMyAdmin.
+5. ✅ Untuk Backend: Buat perubahan database melalui **Script SQL Terstruktur (database/schema.sql)**, bukan export manual di phpMyAdmin.

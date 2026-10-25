@@ -17,8 +17,8 @@ Repositori utama pengembangan proyek **Project-Based Learning (PBL)**: Website E
 ---
 
 ## 🛠️ Tech Stack (Rencana Pengembangan)
-- **Frontend:** Tailwind CSS, Modern JavaScript / Blade Template
-- **Backend:** PHP / Laravel Framework
+- **Frontend:** Tailwind CSS (CDN & Config Eksternal), JavaScript Modern (Modular)
+- **Backend:** PHP Native (Multi-Page Modular Architecture)
 - **Database:** MySQL (via Laragon)
 - **Version Control:** Git & GitHub
 
