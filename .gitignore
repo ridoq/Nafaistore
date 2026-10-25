@@ -43,6 +43,7 @@ composer.phar
 
 # Database Dumps & Exports (Jangan upload db manual ke git!)
 *.sql
+!database/*.sql
 *.sqlite
 *.sqlite3
 *.db
