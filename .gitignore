@@ -1,0 +1,78 @@
+# ==========================================
+# NAFA iSTORE - Git Ignore Rules
+# ==========================================
+
+# Environments & Credentials
+.env
+.env.backup
+.env.*.local
+.env.local
+.env.production
+.env.staging
+
+# Dependencies
+/node_modules/
+/vendor/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Laravel / PHP Framework Files
+/bootstrap/cache/
+/storage/app/*
+!/storage/app/.gitignore
+/storage/framework/cache/*
+!/storage/framework/cache/.gitignore
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitignore
+/storage/framework/testing/*
+!/storage/framework/testing/.gitignore
+/storage/framework/views/*
+!/storage/framework/views/.gitignore
+/storage/logs/*
+!/storage/logs/.gitignore
+/public/storage
+/public/hot
+/public/build
+storage/*.key
+
+# PHP / Composer
+composer.phar
+.phpunit.result.cache
+
+# Database Dumps & Exports (Jangan upload db manual ke git!)
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+
+# Archives & Temp Files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.tmp
+*.log
+
+# IDE & Editor Settings
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# OS Specific Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
